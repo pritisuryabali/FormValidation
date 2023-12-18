@@ -20,7 +20,7 @@ color: #333;
    padding: 12px;
    margin-top: 6px;
    margin-bottom: 16px;
-   border: 1px; solid #ccc;
+   border: 1px solid #ccc;
    border-radius: 6px;
    box-sizing: border-box;
    transtion: border-color 0.3s ease, box-shadow 0.3s ease;
