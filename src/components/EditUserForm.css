@@ -1,0 +1,68 @@
+/* EditUserForm.css*/
+.edit-user-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #29aedb;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-user-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+.edit-user-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-user-form label {
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.edit-user-form input {
+  padding: 14px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.edit-user-form input:focus {
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+}
+/* Adjust to make inputs start on the same line*/
+.edit-user-form label,
+.edit-user-form input {
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-button,
+.cancel-button {
+  padding: 14px;
+  width: 48%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.update-button:hover {
+  background-color: #2ecc71;
+  color: #ffffff;
+}
+.cancel-button:hover {
+  background-color: #e74c3c;
+  color: #ffffff;
+}

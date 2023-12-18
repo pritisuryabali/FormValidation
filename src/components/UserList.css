@@ -1,0 +1,72 @@
+/*UserList.css*/
+.user-list {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.98);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.user-list:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.user-list h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+.user-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.user-list li {
+  margin-bottom: 20px;
+  border: 1px solid #a0a0a0;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.user-list li:hover {
+  background-color: #54b683;
+  transform: translateY(-5px);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.user-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #317cdd;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #dc143c;
+  color: white;
+}
